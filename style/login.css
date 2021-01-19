@@ -1,0 +1,113 @@
+/* *******************************************navbar************************************** */
+.navbar
+{
+    position:static;
+}
+.navbar img
+{
+   width: 100px;
+   height: 100px;  
+}
+.navbar .fa-bars
+{
+    color: #fff;
+}
+
+/* *******************************************login************************************** */
+.login-con
+{
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh - 126px);
+    background-size: 100% 100%;
+    padding: 20px 0;
+}
+.ts-flex
+{
+    width: 100%;
+    min-height: calc(100vh - 126px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-con::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f6f6f69e;
+    z-index: 2;
+}
+.login-con .login
+{
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background:linear-gradient(#7a73f5,#a03de6);
+    width: 400px;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.login-con .login img
+{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.login-con .login h3
+{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.login-con .login .input-con
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #fff;
+    margin-bottom: 20px;
+    border-bottom: .5px solid #fff;
+}
+.login-con .login .input-con i
+{
+    margin-left: 20px;
+}
+.login-con .login .input-con input[type="email"],
+.login-con .login .input-con input[type="password"],
+.signup-con .signup .input-con input[type="text"]
+{
+    width: 100%;
+    height: auto;
+    background: transparent;
+    border: none;
+    outline: 0;
+    color: #fff;
+}
+.login-con .login input[type="submit"]
+{
+    color: #a03de6 !important ;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.login-con .login a
+{
+    color: #fff;
+}
+.login-con .login input::placeholder
+{
+    color: #eee;
+    opacity: 1; 
+}
+.login-con .login input:-ms-input-placeholder,
+.login-con .login input::-ms-input-placeholder
+{ 
+    color: #eee;
+}
+
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ********************************navbar*************************************** -->
+    <nav class="navbar navbar-expand-lg navbar-light black">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="logo-brand" src="./images/output-onlinepngtools.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">الصفحه الرئيسيه</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/signup.html" class="nav-link">انشاء حساب</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/login.html" class="nav-link"> تسجيل الدخول</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ****************************************profile************************************************ -->
+    <div class="container-fluid bg-dark">
+        <div class="row profile-con ">
+            <div class="profile-info">
+    
+                <!-- ***********profile-data*********** -->
+                <ul class="profile-data">
+                    <li>الاسم الاول: <span>ziad</span></li>
+                    <li> الاسم الاخير: <span>ziad</span></li>
+                    <li>البريد الالكتروني: <span>ziad@ziad.com</span></li>
+                    <li>رقم الهاتف : <span>01000000000</span></li>
+                </ul>
+            </div>
+    
+            <!-- *********col********* -->
+            <div class="col-12 col-md-3 sidebar">
+                <div class="container">
+                    <button class="btn btn-profile btn-dark">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="profile-info-large">
+    
+                        <!-- **********profile-data*********** -->
+                        <ul class="profile-data">
+                            <li>الاسم الاول: <span>ziad</span></li>
+                            <li> الاسم الاخير: <span>ziad</span></li>
+                            <li>البريد الالكتروني: <span>ziad@ziad.com</span></li>
+                            <li>رقم الهاتف : <span>01000000000</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- *********col********** -->
+            <div class="col-12 col-md-9">
+                <div class="form">
+                    <div class="login">
+                        <img src="./images/output-onlinepngtools.png" alt="logo">
+                        <h3>ارسل صوتك</h3>
+                        <form>
+                            <div class="input-con">
+                                <i class="fa fa-upload" aria-hidden="true"></i>
+                                <div id="yourBtn" onclick="getFile()">انقر لتحميل ملف</div>
+                                <div style='height: 0px;width: 0px; overflow:hidden;'><input id="upfile" type="file"
+                                        value="upload" onchange="sub(this)" /></div>
+                            </div>
+                            <div class="input-con">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                <input type="url" placeholder="رابط اليوتيوب">
+                            </div>
+                            <div class="input-con">
+                                <i class="fa fa-lock" aria-hidden="true"></i>
+                                <input type="password" placeholder="كلمه السر" />
+                            </div>
+                            <div class="radio-con">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="agree">
+                                    <label class="form-check-label pr-5" for="agree">
+                                        اوافق علي الشروط و الاحكام
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <input type="submit" class="btn btn-light" value="انشاء حساب">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="app/jquery.min.js"></script>
+    <script src="app/bootstrap.min.js"></script> 
+    <script src="app/profile.js"></script>
+</body>
+</html>
